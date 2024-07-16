@@ -149,5 +149,6 @@ export const runFlow = async (input: string, type: 'AES' | 'RSA') => {
     }
   } catch (e) {
     console.error(e);
+    return;
   }
 };
